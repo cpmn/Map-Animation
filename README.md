@@ -17,4 +17,4 @@ This is a small project to add animations to Maps using the MBTA bus data to  Wa
 2. Change the busStop points to walk from Le Triomphe Arc to Eiffel Tower
 
 ## :memo: License
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
