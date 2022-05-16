@@ -1,16 +1,71 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-#map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
+body { 
+  margin: 0; 
+  padding: 0; 
 }
 
-.map-overlay {
+#map { 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  width: 100%; 
+}
+
+.marker {    
+  background-size: cover;
+  width: 100px;
+  height: 100px;  
+  cursor: pointer;
+}
+
+.info-box {
+  height: 200px;
+  width: 200px;
   position: absolute;
-  left: 0;
-  padding: 10px;
+  top: 50px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, .9);
+  padding: 15px;
+  text-align: left;
+  font-family: 'tahoma';
+  margin: 0;
+  font-size: 13px;
+}
+
+.button {  
+  background-color: #0064bd;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: tahoma, -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 20px;
+  font-weight: bold;  
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+.button:hover,
+.button:focus {
+  background-color: #0064bd;
+}
+
+.button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button:active {
+  background-color: #0064bd;
+  box-shadow: #020202;
 }

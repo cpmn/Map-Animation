@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8" />
-    <title>Map Animation</title>
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
-    <link href="./styles.css" rel="stylesheet" />
-</head>
-
+    <head>
+        <meta charset="utf-8">
+        <title>Add custom icons with Markers</title>
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+        <link href="./styles.css" rel="stylesheet" />
+        <link rel="icon" href="images/mapIcon.ico">
+    </head>
 <body>
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.0/mapbox-gl-draw.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.0/mapbox-gl-draw.css' type='text/css'/>  
+
     <div id="map"></div>
-    <div class="map-overlay top">
-        <button style="font-size: 2em" onclick="move()">
-            Walk from Le Triomphe Arc to Eiffel Tower
-        </button>
+    
+    <button class="button" id="route" onclick="recomendedRoute()">Recommended Turistic Route</button>
+
+    <div class='info-box'>
+        <p><em> You can also draw your route using the draw tools (25 points max)</em></p>
+        <div id='calculated-line'></div>
     </div>
+
+    <script src="./gsonTuristicDataParis.js"></script>
     <script src="./mapanimation.js"></script>
 </body>
 
