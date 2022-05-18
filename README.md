@@ -11,7 +11,7 @@
   <a href="#sparkles-features">Roadmap</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">How to Run</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/cpmn" target="_blank">Author</a>
 </p>
@@ -31,6 +31,7 @@ Enjoy the live [DEMO](https://cpmn.github.io/Map-Paris-Travel-Information/)
 
 ## :sparkles: Roadmap ##
 
+### Improvements ###
 These are the list of currect improvements:
 
 :heavy_check_mark: Feature 1: As a turist I would like to see in the map the most visited turistic places in the city of Paris.\
@@ -41,12 +42,13 @@ These are the list of currect improvements:
 :heavy_check_mark: Feature 6: As a turist I would like to see the distance of routes recomended.\
 :heavy_check_mark: Feature 7: As a turist I would like to see the distance of my selected routes.
 
-For future enhancemnts:
-:x: Feature 8: Add a tool tip on mouse over on each historical monument to see the title and the description.
-:x: Feature 9: Enhance the optimal route with an inteligent algorithm.
-:x: Feature 10: Add more historical monuments
+### For future enhancemnts: ###
+:x: Feature 8: Add a tool tip on mouse over on each historical monument to see the title and the description.\
+:x: Feature 9: Enhance the optimal route with an inteligent algorithm.\
+:x: Feature 10: Add more historical monuments.
 
-Bugs for fix
+### Bugs for fix ###
+
 :x: Issue 1: if a turist create his own route we need to disable the "recommended button", it is causing some issues at remove the route using the draw tool.
 
 ## :rocket: Technologies ##
@@ -58,11 +60,11 @@ The following tools were used in this project:
 - [JavaScript](https://www.w3schools.com/js/)
 - [MapBox](https://docs.mapbox.com/)
 
-## :white_check_mark: Requirements and How to Run ##
+## :white_check_mark: Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: How to Run ##
 
 ```bash
 # Clone this project
