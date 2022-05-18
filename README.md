@@ -42,12 +42,12 @@ These are the list of currect improvements:
 :heavy_check_mark: Feature 7: As a turist I would like to see the distance of my selected routes.
 
 For future enhancemnts:
-- Feature 8: Add a tool tip on mouse over on each historical monument to see the title and the description.
-- Feature 9: Enhance the optimal route with an inteligent algorithm.
-- Feature 10: Add more historical monuments
+- [x] Feature 8: Add a tool tip on mouse over on each historical monument to see the title and the description.
+- [x] Feature 9: Enhance the optimal route with an inteligent algorithm.
+- [x] Feature 10: Add more historical monuments
 
 Bugs for fix
-- Issue 1: if a turist create his own route we need to disable the "recommended button", it is causing some issues at remove the route using the draw tool.
+- [x] Issue 1: if a turist create his own route we need to disable the "recommended button", it is causing some issues at remove the route using the draw tool.
 
 ## :rocket: Technologies ##
 
