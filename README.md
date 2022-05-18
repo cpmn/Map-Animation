@@ -1,9 +1,9 @@
 <div align="center" id="top"> 
-  <img src="./images/EyesMovementSimpsons.gif" alt="Eyes Movement" />
-  <!-- <a href="https://eyesmovement.netlify.app">Demo</a> -->
+  <img src="./images/ParisTravelGuide.gif" alt="Paris Travel Guide" />
+  <a href="https://cpmn.github.io/Map-Paris-Travel-Information/">Demo</a>
 </div>
 
-<h1 align="center">The Simpson's Eyes Movement Show</h1>
+<h1 align="center">Paris Travel guide on Bicycle</h1>
 
 <p align="center">
   <a href="#dart-about">Description</a> &#xa0; | &#xa0; 
@@ -42,8 +42,9 @@ These are the list of currect improvements:
 :heavy_check_mark: Feature 7: As a turist I would like to see the distance of my selected routes.
 
 For future enhancemnts:
-- Feature 8: Enhance the optimal route with an inteligent algorithm.
-- Feature 9: Add more historical monuments
+- Feature 8: Add a tool tip on mouse over on each historical monument to see the title and the description.
+- Feature 9: Enhance the optimal route with an inteligent algorithm.
+- Feature 10: Add more historical monuments
 
 Bugs for fix
 - Issue 1: if a turist create his own route we need to disable the "recommended button", it is causing some issues at remove the route using the draw tool.
@@ -86,28 +87,3 @@ Made with :heart: by <a href="https://github.com/cpmn" target="_blank">Claudia M
 &#xa0;
 
 <a href="#top">Back to top</a>
-
-
-
-
-
-# Title: Map-Animation
-
-&#xa0;
-## :dart: Description: 
-
-
-##  :rocket: How to Run:
-
-1. $ git clone git@github.com:cpmn/Map-Animation.git
-2. On you local repository please add the API KEY in file mapanimation.js line 16.
-3. Access the file index.html in the browser
-4. to make it run, click in the text "Walk from Le Triomphe Arc to Eiffel Tower"
-
- 
-## :sparkles: Roadmap of future improvements:
-1. Change the marker to Le Triomphe Arc
-2. Change the busStop points to walk from Le Triomphe Arc to Eiffel Tower
-
-## :memo: License
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
